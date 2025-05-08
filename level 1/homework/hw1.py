@@ -1,0 +1,9 @@
+name="nika"
+last_name="bidzinashvili"
+height=180
+age=17
+print(name)
+print(last_name)
+print(180)
+print(17)
+aris_shromis_moyvare=True
