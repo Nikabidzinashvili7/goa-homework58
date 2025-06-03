@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>რეგისტრაცია • GOA</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="register.html">რეგისტრაცია</a> |
+      <a href="index.html">მთავარი</a>
+    </nav>
+  </header>
+
+  <h1>რეგისტრაცია GOA-ში</h1>
+
+  <form action="index.html" method="get">
+    <label for="firstName">სახელი:</label><br>
+    <input type="text" id="firstName" name="firstName" placeholder="თქვენი სახელი" required><br><br>
+
+    <label for="lastName">გვარი:</label><br>
+    <input type="text" id="lastName" name="lastName" placeholder="თქვენი გვარი" required><br><br>
+
+    <label for="email">ემაილი:</label><br>
+    <input type="email" id="email" name="email" placeholder="თქვენი ემაილი" required><br><br>
+
+    <label for="password">პაროლი:</label><br>
+    <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი" required><br><br>
+
+    <label>გენდერი:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">კაცი</label><br>
+
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">ქალი</label><br>
+
+
+    <label for="speed">აირჩიეთ სასურველი გრაფიკი (გაკვეთილების სიხშირე):</label><br>
+    <select id="speed" name="speed" required>
+      <option value="">აირჩიეთ</option>
+      <option value="1">1 გაკვეთილი კვირაში</option>
+      <option value="2">2 გაკვეთილი კვირაში</option>
+      <option value="3">3 გაკვეთილი კვირაში</option>
+      <option value="4">4 გაკვეთილი კვირაში</option>
+      <option value="5">5 გაკვეთილი კვირაში</option>
+    </select><br><br>
+
+    <input type="submit" value="დარეგისტრირდი">
+  </form>
+</body>
+</html>

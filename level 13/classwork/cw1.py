@@ -4,7 +4,7 @@
 
 friends = ["luka", "lasha", "gio","andria", "mate"]
 
-#print(friends[0])
+
 
 friends[3] = "gia"
 

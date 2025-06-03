@@ -5,4 +5,4 @@ number = 0
 for i in range(1, 11):
     number = number + i
 
-print("ჯამი არის:", number)
+print("sum is:", number)

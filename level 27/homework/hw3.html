@@ -1,0 +1,61 @@
+<!-- შექმენით ფეისბუქის რეგისტრაციის კლონი-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Clone - რეგისტრაცია</title>
+</head>
+<body>
+
+    <h1>რეგისტრაცია</h1>
+    <p>სწრაფი და მარტივი რეგისტრაცია</p>
+
+    <form>
+
+        <table>
+            <tr>
+                <td><input type="text" placeholder="სახელი" name="firstname" required></td>
+                <td><input type="text" placeholder="გვარი" name="lastname" required></td>
+            </tr>
+        </table>
+
+        <p><input type="email" placeholder="ელ.ფოსტა ან მობილურის ნომერი" name="email" required></p>
+
+        <p><input type="password" placeholder="ახალი პაროლი" name="password" required></p>
+
+        <p>დაბადების თარიღი</p>
+        <select name="day">
+            <option>დღე</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            
+        </select>
+
+        <select name="month">
+            <option>თვე</option>
+            <option>იანვარი</option>
+            <option>თებერვალი</option>
+            <option>მარტი</option>
+            
+        </select>
+
+        <select name="year">
+            <option>წელი</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            
+        </select>
+
+        <p>სქესი</p>
+        <input type="radio" name="gender" value="female"> ქალი
+        <input type="radio" name="gender" value="male"> კაცი
+        <input type="radio" name="gender" value="other"> სხვა
+
+        <p><button type="submit">დარეგისტრირდი</button></p>
+
+    </form>
+
+</body>
+</html>

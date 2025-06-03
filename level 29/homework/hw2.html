@@ -1,0 +1,24 @@
+<!--შექმენით სარეგისტრაციო ფორმა, სადაც მომხარებელს შემოატანინებთ სახელს, ემაილს, პაროლს და გენდერს.
+ თითოეული შესაყვანი ველის შევსება გახადეთ აუცილებელი. ბოლოს კი დაამატეთ დადასტურების ღილაკი-->
+
+
+<form action="/register" method="post">
+  <label for="name">სახელი:</label><br>
+  <input type="text" id="name" name="name" placeholder="შეიყვანეთ თქვენი სახელი" required><br><br>
+
+  <label for="email">ემაილი:</label><br>
+  <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ემაილი" required><br><br>
+
+  <label for="password">პაროლი:</label><br>
+  <input type="password" id="password" name="password" placeholder="შეიყვანეთ თქვენი პაროლი" required><br><br>
+
+  <label>გენდერი:</label><br>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">კაცი</label><br>
+
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">ქალი</label><br>
+
+
+  <input type="submit" value="დადასტურება">
+</form>

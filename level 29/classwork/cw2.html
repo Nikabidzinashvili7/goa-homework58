@@ -1,0 +1,25 @@
+<!-- შექმნილ სარეგისტრაციო ფორმას დაამატეთ არჩევანი, რომ მომხარებელს შეეძლოს საცხოვრებელი ქალაქის არჩევა.(მინიმუმ 5 ქალაქი)-->
+
+
+ <form action="/register" method="post">
+  <label for="name">სახელი:</label><br>
+  <input type="text" id="name" name="name" placeholder="შეიყვანეთ თქვენი სახელი" required><br><br>
+
+  <label for="email">ემაილი:</label><br>
+  <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ემაილი" required><br><br>
+
+  <label for="password">პაროლი:</label><br>
+  <input type="password" id="password" name="password" placeholder="შეიყვანეთ თქვენი პაროლი" required><br><br>
+
+  <label for="city">ქალაქი:</label><br>
+  <select id="city" name="city" required>
+    <option value="">აირჩიეთ ქალაქი</option>
+    <option value="tbilisi">თბილისი</option>
+    <option value="batumi">ბათუმი</option>
+    <option value="kutaisi">ქუთაისი</option>
+    <option value="rustavi">რუსთავი</option>
+    <option value="zugdidi">ზუგდიდი</option>
+  </select><br><br>
+
+  <input type="submit" value="რეგისტრაცია">
+</form>

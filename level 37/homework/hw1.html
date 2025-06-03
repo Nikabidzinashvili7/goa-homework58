@@ -1,0 +1,122 @@
+<!--შექმენით გვერდი რესტორანის მენიუსთვის, რომელიც იქნება 
+გადანაწილებული კატეგორიებად (მაგალითად, სადილები, ძირითადი კერძები, დესერტები და ა.შ).
+ თქვენი დავალებაა დაყოთ ეს კატეგორიები სექციებად და ქვე სექციებად.
+ (მაგალითად: ძირითადი კერძების სექციაში გააკეთეთ რამოდენიმე კერძის სექცია, სადაც ისაუბრებთ კონკრეტულ კერძებზე)
+  გამოიყენეთ ფოტოები და აღწერეთ თითოეული კერძი.
+ეს საიტი აუცილებლად უნდა იყოს სწორი სტრუქტურით დალაგებული
+(ამისათვის დაგჭირდებათ შემდეგი სემატიკური დეგები: header, main, section, footer)
+გამოიყენეთ style ატრიბუტი და შეეცადეთ დღეს ნასწავლი მასალით გასტილოთ თქვენი საიტი.-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <title>რესტორანის მენიუ</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fafafa; color: #333;">
+  <header style="background-color: #8B0000; color: white; padding: 20px; text-align: center;">
+    <h1 style="margin: 0; font-size: 2.5em;">რესტორანი "გემოვნებიანი წუთები"</h1>
+    <p style="margin: 5px 0 0;">საუკეთესო კერძები თქვენი გემოვნებისთვის</p>
+  </header>
+
+  <main style="max-width: 900px; margin: 30px auto; padding: 0 20px;">
+    
+    
+    <section style="margin-bottom: 40px;">
+      <h2 style="border-bottom: 2px solid #8B0000; padding-bottom: 10px;">სადილები</h2>
+
+      <section style="margin-top: 20px; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px #ddd;">
+        <h3 style="color: #8B0000;">სუპები</h3>
+        
+        <article style="display: flex; margin-top: 15px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
+          
+          <div>
+            <h4 style="margin: 0 0 5px;">ქათმის სუპი</h4>
+            <p style="margin: 0;">ტრადიციული ქათმის სუფთა და ნაზი სუპი ბოსტნეულით და მწვანილით.</p>
+          </div>
+        </article>
+
+        <article style="display: flex; margin-top: 15px;">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=150&q=80" alt="ბოსტნეულის სუპი" style="width: 150px; height: 100px; object-fit: cover; border-radius: 5px; margin-right: 15px;" />
+          <div>
+            <h4 style="margin: 0 0 5px;">ბოსტნეულის სუპი</h4>
+            <p style="margin: 0;">მსხალი და ხილიანი სუპი სეზონური ბოსტნეულით.</p>
+          </div>
+        </article>
+      </section>
+
+      <section style="margin-top: 30px; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px #ddd;">
+        <h3 style="color: #8B0000;">სალათები</h3>
+
+        <article style="display: flex; margin-top: 15px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
+         
+          <div>
+            <h4 style="margin: 0 0 5px;">ცხარე სალათი</h4>
+            <p style="margin: 0;">მწვანილი, პომიდორი, წიწაკა და ცხარე სოუსი.</p>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    
+    <section style="margin-bottom: 40px;">
+      <h2 style="border-bottom: 2px solid #8B0000; padding-bottom: 10px;">ძირითადი კერძები</h2>
+
+      <section style="margin-top: 20px; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px #ddd;">
+        <h3 style="color: #8B0000;">მხატვრული ხორცის კერძები</h3>
+
+        <article style="display: flex; margin-top: 15px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
+          
+          <div>
+            <h4 style="margin: 0 0 5px;">გრილზე შემწვარი სტეიკი</h4>
+            <p style="margin: 0;">მომზადებულია ბალახეულით და გემრიელი სოუსით.</p>
+          </div>
+        </article>
+
+        <article style="display: flex; margin-top: 15px;">
+          
+          <div>
+            <h4 style="margin: 0 0 5px;">კურდღლის მურაბა</h4>
+            <p style="margin: 0;">ცხიმიანი, ნაზი ხორცი უგემრიელეს სოუსში.</p>
+          </div>
+        </article>
+      </section>
+
+      <section style="margin-top: 30px; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px #ddd;">
+        <h3 style="color: #8B0000;">ზღვის პროდუქტები</h3>
+
+        <article style="display: flex; margin-top: 15px;">
+            <h4 style="margin: 0 0 5px;">გრილზე შემწვარი სალმონი</h4>
+            <p style="margin: 0;">სახლური ცოცხალი მწვანილით და ლიმონის წვენით.</p>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    
+    <section style="margin-bottom: 40px;">
+      <h2 style="border-bottom: 2px solid #8B0000; padding-bottom: 10px;">დესერტები</h2>
+
+      <section style="margin-top: 20px; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px #ddd;">
+        <article style="display: flex; margin-top: 15px;">
+          <div>
+            <h4 style="margin: 0 0 5px;">შოკოლადის ტორტი</h4>
+            <p style="margin: 0;">შოკოლადის მდიდარი და კრემის სავსე ტორტი.</p>
+          </div>
+        </article>
+
+        <article style="display: flex; margin-top: 15px;">
+          
+            <h4 style="margin: 0 0 5px;">ვაფლები</h4>
+            <p style="margin: 0;">ტკბილი ვაფლები თაფლითა და ვანილის ყინულით.</p>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <footer style="background-color: #8B0000; color: white; text-align: center; padding: 15px; font-size: 0.9em;">
+    <p style="margin: 0;">© 2025 რესტორანი "გემოვნებიანი წუთები". ყველა უფლება დაცულია.</p>
+  </footer>
+</body>
+</html>
